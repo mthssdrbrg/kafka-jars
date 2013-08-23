@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = 'kafka-jars'
 
-  s.files         = Dir['lib/*.rb'] + Dir['lib/*.jar']
+  s.files         = Dir['lib/*.rb', 'lib/*.jar']
   s.require_paths = %w(lib)
 end
