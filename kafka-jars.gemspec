@@ -2,20 +2,23 @@
 
 $: << File.expand_path('../lib', __FILE__)
 
+
 Gem::Specification.new do |s|
   s.name        = 'kafka-jars'
-  s.version     = '0.8.0.beta1'
+  s.version     = '0.8.1.1.pre0'
   s.platform    = 'java'
-
   s.authors     = ['Mathias Söderberg']
   s.email       = ['mths@sdrbrg.se']
-  s.homepage    = 'https://kafka.apache.org/'
-  s.description = %q{Kafka JARs, compiled using Scala 2.9.2}
-  s.summary     = %q{JARs compiled from the official 0.8.0-beta1 source release}
-  s.licenses    = 'Apache'
+  s.summary     = %q{}
+  s.description = %q{}
 
-  s.rubyforge_project = 'kafka-jars'
+  s.add_dependency 'scala-library-jars', '~> 2.9.2'
+  s.add_dependency 'zookeeper-jars', '~> 3.4.6'
+  s.add_dependency 'slf4j-jars', '~> 1.6.2'
+  s.add_dependency 'snappy-jars', '~> 1.1.0.1'
+  s.add_dependency 'metrics-core-jars', '~> 2.1.2'
+  s.add_dependency 'slyphon-log4j', '~> 1.2.15'
 
-  s.files         = Dir['lib/*.rb', 'lib/*.jar']
+  s.files         = Dir['lib/*.rb'] + Dir['lib/*.jar']
   s.require_paths = %w(lib)
 end
