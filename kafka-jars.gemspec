@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'scala-library-jars', '~> 2.9.2'
   s.add_dependency 'zookeeper-jars', '~> 3.4.6'
-  s.add_dependency 'slf4j-jars', '~> 1.6.2'
+  s.add_dependency 'slf4j-jars', '~> 1.7.7'
   s.add_dependency 'snappy-jars', '~> 1.1.0.1'
   s.add_dependency 'metrics-core-jars', '~> 2.1.2'
   s.add_dependency 'slyphon-log4j', '~> 1.2.15'
