@@ -3,7 +3,6 @@
 require 'java'
 require 'scala-library-jars'
 require 'slf4j-jars'
-require 'log4j'
 require 'zookeeper-jars'
 require 'snappy-jars'
 require 'metrics-core-jars'
