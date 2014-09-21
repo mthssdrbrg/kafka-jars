@@ -5,7 +5,7 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'kafka-jars'
-  s.version     = '0.8.1.1.pre0'
+  s.version     = '0.8.1.1.pre1'
   s.platform    = 'java'
   s.authors     = ['Mathias Söderberg']
   s.email       = ['mths@sdrbrg.se']
