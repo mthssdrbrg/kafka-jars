@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'scala-library-jars', '~> 2.9.2'
   s.add_dependency 'zookeeper-jars', '~> 3.4.6'
   s.add_dependency 'slf4j-jars', '~> 1', '>= 1.7'
-  s.add_dependency 'metrics-core-jars', '~> 2.2'
+  s.add_dependency 'metrics-core-jars', '>= 2.1', '< 3.0.0'
   s.add_dependency 'snappy-jars', '~> 1.1'
 
   s.files         = Dir['lib/*.rb'] + Dir['lib/*.jar']
